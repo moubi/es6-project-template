@@ -1,0 +1,6 @@
+node_modules/*
+assets/*
+test/reporting
+gulpfile.js
+test/spec/index.spec.js
+webpack.config.js
