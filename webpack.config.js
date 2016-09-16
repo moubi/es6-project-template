@@ -19,6 +19,11 @@ const config = {
       query: {
         presets: ['es2015']
       }
+    }],
+    preLoaders: [{
+      test: /\.js$/,
+      loaders: ['eslint'],
+      include: /src/
     }]
   },
   plugins: [
