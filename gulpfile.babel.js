@@ -2,8 +2,9 @@
 
 import gulp from 'gulp';
 import sass from 'gulp-sass';
-import del from 'del';
+import concat from 'gulp-concat';
 import shell from 'gulp-shell';
+import del from 'del';
 
 const SOURCE_DIRECTORY = './src';
 
@@ -14,6 +15,7 @@ gulp.task("compile-scss", () => {
   return gulp.src("assets/scss/**/*.scss")
     .pipe(sass({ outputStyle: 'compressed' })
     .on("error", sass.logError))
+    .pipe(concat("style.css"))
     .pipe(gulp.dest("dist/css/"));
 });
 

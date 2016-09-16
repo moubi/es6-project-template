@@ -23,8 +23,8 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      filename: 'banner.html',
-      template: 'banner.template.html',
+      filename: 'index.html',
+      template: 'index.html',
       cache: false,
       hash: true,
       chunks: ['app']
