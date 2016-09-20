@@ -5,6 +5,7 @@ class App {
 
   init() {
     window.document.body.innerHTML = 'Hello Earth!';
+    return this;
   }
 }
 
