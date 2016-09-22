@@ -4,6 +4,6 @@
   "extends": "airbnb",
 
   "globals": {
-    "window": true,
+    "window": true
   }
 }
