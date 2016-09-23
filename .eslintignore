@@ -1,0 +1,4 @@
+node_modules/*
+assets/*
+gulpfile.js
+webpack.config.js
