@@ -5,5 +5,11 @@
   "parser": "babel-eslint",
   "globals": {
     "window": true
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true,
+    "jquery": true
   }
 }
