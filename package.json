@@ -12,7 +12,7 @@
   },
   "main": "index.html",
   "scripts": {
-    "start": "gulp compile-scss & webpack-dev-server --inline --hot --watch-stdin --content-base dist & gulp watch-scss & gulp deploy",
+    "start": "gulp compile-scss & webpack-dev-server --inline --hot --watch-stdin --content-base dist & gulp watch-scss & gulp watch-deploy",
     "scss": "gulp watch-scss",
     "export": "webpack --watch"
   },
