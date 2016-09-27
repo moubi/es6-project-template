@@ -4,12 +4,15 @@
   "extends": "eslint:recommended",
   "parser": "babel-eslint",
   "globals": {
-    "window": true
+    "window": true,
+    "console": true
   },
   "env": {
     "browser": true,
     "es6": true,
-    "jest": true,
-    "jquery": true
+    "jest": true
+  },
+  "rules": {
+    "no-console": "warn"
   }
 }
