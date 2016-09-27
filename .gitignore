@@ -9,3 +9,5 @@ npm-debug.log
 
 # misc
 .sass-cache
+
+.DS_Store
