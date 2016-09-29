@@ -2,7 +2,7 @@
 
 **es6 (babel), sass anf html5**
 
-A boilerplate build all kind of web apps using html5, css and javascript. It gives you the necessary, basic, but powerful tools to work on your projects in a safe and productive environment.
+A boilerplate to help you build all kind of web apps using html5, css and javascript. It gives you the necessary, basic, but powerful tools to work on your projects in a safe and productive environment.
 
 ## Usage
 Run `npm install` to install packages
